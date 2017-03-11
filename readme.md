@@ -11,4 +11,10 @@ This is a micro service for transforming Markdown.
 
 ## Attributions
 
-This project makes use of [Slim microframework for PHP](https://www.slimframework.com) and [Parsedown](http://parsedown.org). Thank you for developing and maintaining these excellent projects.
+This project makes use of
+
+* [Slim](https://www.slimframework.com), a microframework in PHP
+* [Parsedown](http://parsedown.org), a Markdown parser in PHP
+* [Guzzle](https://github.com/guzzle/guzzle), a HTTP client in PHP
+
+Thank you for developing and maintaining these excellent projects.
