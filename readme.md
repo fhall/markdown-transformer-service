@@ -1,13 +1,14 @@
 # MarkdownTransformerService
 
-This is a micro service for transforming Markdown and creating other representations.
+This is a micro service for transforming Markdown.
 
 ## Routes
 
-The main route (/) supports GET (service information) and POST (content or a a resource url to be transformed).
-
-The second route available (/<url>) is used to transform a representation of the resource specified by the url (GET).
+| Route | Method | Parameters | Description |
+|:------|:-------|:-----------|:------------|
+| /     | GET    |            | The main route. Contains information about the service |
+| /     | POST   |            | The content of the payload body will be transformed and returned |
 
 ## Attributions
 
-This project makes use of [Slim microframework for PHP](https://www.slimframework.com) and [Parsedown](http://parsedown.org).
+This project makes use of [Slim microframework for PHP](https://www.slimframework.com) and [Parsedown](http://parsedown.org). Thank you for developing and maintaining these excellent projects.
